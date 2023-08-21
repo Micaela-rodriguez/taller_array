@@ -38,5 +38,7 @@ function showList(array) {
 
 document.addEventListener("DOMContentLoaded", (e) => {
   // Escribe tu solución aquí
+  strangeArray.sort()
+  showList(strangeArray)
   // Sugerencia de cómo mostrar el array => showList(strangeArray);
 });
